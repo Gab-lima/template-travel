@@ -24,6 +24,13 @@
     &.acenter {
         align-items: center;
     }
+    &.row-reverse{
+        flex-wrap: wrap-reverse;
+    }
+    &.space-btw{
+      justify-content: space-between;
+    }
+    
 }
 
 .sm-1,

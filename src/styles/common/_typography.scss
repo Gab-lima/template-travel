@@ -1,15 +1,35 @@
 p {
 	margin-top: 0;
+	color: $color-lgray;
+	font-size: 15px;
+
+	@media screen and (min-width: $screen-sm){
+		font-size: 17px;
+	}
+
+
 }
 
 h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 	margin-top: 0;
+	font-size: 25px;
+
+	@media screen and (min-width: $screen-sm){
+		font-size: 35px;
+	}
 
 	&.title-content {
 		
 	}
 
 	&.title-section {
+		color: #202336;
+		font-size: 40px;
+		
+		
+		@media screen and (min-width: $screen-sm){
+			font-size: 55px;
+		}
 		
 	}
 }
@@ -32,9 +52,22 @@ h5, .h5 {
 
 //Link
 a{
-	color: #007bff;
+	color: $color-lgray;
 	text-decoration: none;
+	font-size: 14px;
+
+	@media screen and (min-width: $screen-sm){
+		font-size: 16px;
+	}
 }
+
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+
 
 //transformação da fonte
 .uppercase {
@@ -78,33 +111,36 @@ a{
 }
 
 // cores do texto
-.text-lgray {
-	color: $color-lgray !important;
-}
-.text-gray{
-	color: $color-gray !important;
-}
-.text-dark{
-	color: $color-dark !important;
-}
+// .text-lgray {
+// 	color: $color-lgray !important;
+// }
+// .text-gray{
+// 	color: $color-gray !important;
+// }
+// .text-dark{
+// 	color: $color-dark !important;
+// }
 
 .text-white {
-	color: white !important;
+	color: $color-white !important;
 }
 .text-black {
-	color: black !important;
+	color: $color-black !important;
+}
+.text-orange {
+	color: $color-orange !important;
 }
 
 
-.text-alert {
-	color: $color-alert !important;
-}
-.text-danger {
-	color: $color-danger !important;
-}
-.text-success {
-	color: $color-success !important;
-}
+// .text-alert {
+// 	color: $color-alert !important;
+// }
+// .text-danger {
+// 	color: $color-danger !important;
+// }
+// .text-success {
+// 	color: $color-success !important;
+// }
 
 
 // fontes do texto
@@ -114,3 +150,55 @@ a{
 .font-text {
 	font-family: $font-text !important;
 }
+
+
+//
+.font-size14{
+	font-size: 14px !important;
+}
+
+.font-size17{
+	font-size: 17px !important;
+}
+
+.font-line-heig{
+	line-height: 30px;
+}
+
+
+
+
+// @media screen{
+// 	@media(min-width: $screen-sm){
+
+// 	}
+// 	@media(min-width: $screen-md){
+
+// 	}
+
+//@media(min-width: $screen-lg){
+
+	// 	}
+// }
+
+
+
+// @media screen and (min-width: $screen-sm){
+	
+// }
+// @media screen and (min-width: $screen-md){
+	
+// }
+// @media screen and (min-width: $screen-lg){
+	
+// }
+
+
+
+// xs = 767px <  - mobile
+
+// sm = 768px >  - tablet
+
+// md = 1024px > - desktop
+
+// lg = 1170px > - desktop lg

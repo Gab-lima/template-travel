@@ -1,0 +1,64 @@
+.container{
+    .footer {
+        border-bottom: 1px solid $color-lgray;
+      .f-log {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 77px;
+        img {
+          width: 44px;
+          height: 44px;
+          justify-content: center;
+          margin-bottom: 26px;
+        }
+        .p-footer {
+          margin-bottom: 55px;
+        }
+      }
+    
+      .f-informations{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+          h5{
+              font-size: 16px;
+          }
+          a{
+                line-height: 30px;
+                transition: 0.3s;
+                font-size: 15px;
+              &:hover{
+                  color: $color-orange;
+                  font-size: 16px;
+              }
+          }
+      }
+      @media screen and (min-width: $screen-md){
+
+            .f-informations{
+                display: flex;
+                align-items: flex-start;
+                a{}
+      
+            }              
+
+        
+    }
+    }
+
+    .social-networks{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        a{
+            img{
+                padding: 15px;
+            }
+        }
+    }
+
+}

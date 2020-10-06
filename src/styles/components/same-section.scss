@@ -1,0 +1,28 @@
+.same-sec{
+    margin: 150px 0 150px;
+    
+    .container{  
+            display: flex;
+            text-align: center;
+        .white01{
+            margin-bottom: 50px;
+            
+            p{
+                margin-bottom: 30px;
+                text-align: left;
+                
+            }
+        }
+        img{
+    
+        }
+    }
+
+    @media screen and (min-width: $screen-md) {
+        .container{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        
+    }
+}

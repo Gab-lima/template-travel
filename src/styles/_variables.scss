@@ -1,19 +1,21 @@
 // Paleta de cores do site
-$color-lgray: #F5F5F5;
-$color-gray: #B1B1B1;
-$color-dark: #333333;
+$color-lgray: #7D7987;
+$color-black: #000;
+$color-white: #fff;
+$color-orange: #FB8F1D;
+$color-dark-orange: #f57e00;
+$color-lgray02: rgba(171,171,171,1);
 
-$color-success: #3AB572; 
-$color-alert: #F0AC4A;
-$color-danger: #C23F3B;
+//$color-success: #3AB572; 
+//$color-alert: #F0AC4A;
+//$color-danger: #C23F3B;
 
 //cores do projeto
-$color-primary: #EC1D24;
-$color-second: #800000;
-$color-blue: #405580;
+
 
 // Importação de font do site
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap');
 
 // Grid configurações
 $grid-gutter-width: 30px;
@@ -26,8 +28,8 @@ $screen-lg: 1170px;
 $grid-container-max-size: 1170px;
 
 //configurações de fonte
-$font-display: 'Source Sans Pro', sans-serif;
-$font-text: 'Source Sans Pro', sans-serif;
+$font-display: 'Playfair Display', serif;
+$font-text: 'Inter', sans-serif;
 $font-weight-heading: 400;
 
 

@@ -1,0 +1,11 @@
+.btn {
+  background-color: $color-orange;
+  padding: 10px 40px;
+  color: $color-white;
+  border-radius: 8px;
+  transition: 0.3s;
+  &:hover{
+    padding: 11px 41px;
+    background-color: $color-dark-orange;
+  }
+}

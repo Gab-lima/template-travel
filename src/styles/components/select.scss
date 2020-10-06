@@ -1,0 +1,32 @@
+.select {
+    
+    form{
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+
+        select{
+            padding: 10px 10px;
+            margin: 20px 0;
+            width: 100%;
+            
+        }
+
+        input{
+            padding: 10px 10px;
+            width: 100%; 
+            margin: 20px 0;
+        }
+    }
+
+    @media screen and (min-width: $screen-md){
+        form{
+         display: flex;
+         flex-direction: row;
+         .sel02{
+            margin-left: 20px;
+         }
+        }
+    }
+}
+

@@ -1,0 +1,23 @@
+.contatct-form{
+    form{
+        display: flex;
+        flex-direction: column;
+
+        input{
+            appearance: none;
+            -webkit-appearance: none;
+            margin-bottom: 10px;
+        }
+
+        textarea{
+            appearance: none;
+            -webkit-appearance: none;
+            margin-bottom: 10px;
+        }
+
+        button{
+            background-color: blue;
+            
+        }
+    }
+}

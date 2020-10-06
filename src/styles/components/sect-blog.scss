@@ -1,0 +1,22 @@
+.sect-blog{
+    .container{
+
+        .all-blog{
+            border-radius: 10px;
+            box-shadow: 4px 3px 23px 0px $color-lgray02;
+            .img-blog{
+                width: 100%;
+                
+                img{
+                    width: 100%;
+                    height: 337px;
+                    border-radius: 10px 10px 0 0;
+                }
+            }
+            .desc-blog{
+                padding: 10px;
+                
+            }
+        }
+    }
+}
