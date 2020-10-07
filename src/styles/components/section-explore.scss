@@ -5,15 +5,26 @@
     align-items: center;
     text-align: center;
 
-    .title-banner {}
+    .title-banner {
+      h3{}
+    }
   }
   .img-travel {}
 
   @media screen and (min-width: $screen-md) {
-    .explore {
       .container {
         display: flex;
+        .title-banner{
+          h3{
+            display: flex;
+            text-align: start;
+          }
+          p{
+            display: flex;
+            text-align: start;
+          }
+        }
       }
     }
   }
-}
+
