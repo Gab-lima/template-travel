@@ -1,26 +1,39 @@
-.destinations{
-    .container{
-        .squad-img{
-            position: relative;
-            img{
-                border-radius: 10px;
-                width: 100%;
-                height: 337px;
-                object-fit: cover;
-                object-position: center;
-            }
-            .p-img{
+.destinations {
+  .container {
+    a {
+      color: $color-orange;
+      font-weight: 600;
 
-                p{
-
-                }
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                background-color: $color-white;
-                padding: 10px 20px 0 0;
-                border-top-right-radius: 10px;
-            }
-        }
+      &:hover {
+        border-bottom: 2px solid $color-orange;
+      }
     }
+    .squad-img {
+      position: relative;
+      transition: 0.3s;
+      box-shadow: 4px 3px 23px 0px $color-lgray02;
+      &:hover {
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.05);
+      }
+      img {
+        border-radius: 10px;
+        width: 100%;
+        height: 337px;
+        object-fit: cover;
+        object-position: center;
+      }
+      .p-img {
+        p {
+        }
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: $color-white;
+        padding: 10px 20px 0 0;
+        border-top-right-radius: 10px;
+      }
+    }
+  }
 }

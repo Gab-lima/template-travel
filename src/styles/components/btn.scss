@@ -4,8 +4,10 @@
   color: $color-white;
   border-radius: 8px;
   transition: 0.3s;
-  &:hover{
+  box-shadow: 0px 7px 32px 0px rgba(255, 145, 29, 0.92);
+  &:hover {
     padding: 11px 41px;
     background-color: $color-dark-orange;
+    box-shadow: 0px 15px 32px 0px rgba(255, 145, 29, 0.92);
   }
 }
