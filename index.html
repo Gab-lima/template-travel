@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Template Travel</title>
     <link rel="stylesheet" href="dist/styles.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
   </head>
 
@@ -44,7 +45,9 @@
               </h3>
               <p class="text-black text-bold">Holiday finder</p>
 
-              <div class="select">
+              <div class="select" data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine">
                 <form action="">
                   <div class="sel01">
                     <select name="" id="">
@@ -80,7 +83,9 @@
           </div>
 
           <div class="xs-12 md-7 sm-7">
-            <div class="img-travel">
+            <div class="img-travel" data-aos="fade-right"
+                                    data-aos-offset="300"
+                                    data-aos-easing="ease-in-sine">
               <img src="./images/travel01.png" alt="" />
             </div>
           </div>
@@ -91,11 +96,15 @@
     <section class="same-sec">
       <div class="container">
         <div class="row row-reverse acenter">
-          <div class="xs-12 md-7 sm-7">
+          <div class="xs-12 md-7 sm-7" data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
             <img src="./images/ballon.png" alt="" />
           </div>
           <div class="xs-12 md-5 sm-5">
-            <div class="white01">
+            <div class="white01" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <h3 class="font-display">A new way to explore the world</h3>
               <p class="font-line-heig">
                 For decades travellers have reached for Lonely Planet books when
@@ -109,7 +118,7 @@
       </div>
     </section>
     <!-- Terceira section (destinos) -->
-    <section class="destinations">
+    <section class="destinations " data-aos="fade-up" data-aos-offset="500">
       <div class="container">
         <div class="row acenter space-btw small-separate">
           <h3 class="font-display">Featured destinations</h3>
@@ -119,37 +128,43 @@
         <div class="row">
           <div class="xs-12 sm-6 md-3">
             <div class="squad-img separate-base">
-              <img src="./images/mask01.png" alt="" />
+              <a href="">
+                <img src="./images/rio.jpg" alt="" />
+              </a>
               <div class="p-img">
-                <p class="font-size3 text-black text-semibold">Raja Ampat</p>
-                <p class="font-size3">indonesia</p>
+                <p class="font-size3 text-black text-semibold">Rio de Janeiro</p>
+                <p class="font-size3">Brasil</p>
               </div>
             </div>
           </div>
 
           <div class="xs-12 sm-6 md-3">
             <div class="squad-img separate-base">
-              <img src="./images/mask01.png" alt="" />
+              <a href="">
+                <img src="./images/torre-eiffel.jpg" alt="" />
+              </a>
               <div class="p-img">
-                <p class="font-size3 text-black text-semibold">Raja Ampat</p>
-                <p class="font-size3">indonesia</p>
+                <p class="font-size3 text-black text-semibold">Paris</p>
+                <p class="font-size3"></p>França</p>
               </div>
             </div>
           </div>
 
           <div class="xs-12 sm-6 md-3">
             <div class="squad-img separate-base">
-              <img src="./images/mask01.png" alt="" />
+             <a href=""><img src="./images/sidney.jpg" alt="" /></a>
               <div class="p-img">
-                <p class="font-size3 text-black text-semibold">Raja Ampat</p>
-                <p class="font-size3">indonesia</p>
+                <p class="font-size3 text-black text-semibold">Sidney</p>
+                <p class="font-size3">Australia</p>
               </div>
             </div>
           </div>
 
           <div class="xs-12 sm-6 md-3">
             <div class="squad-img separate-base">
-              <img src="./images/mask01.png" alt="" />
+              <a href="">
+                <img src="./images/raja.jpg" alt="" />
+              </a>
               <div class="p-img">
                 <p class="font-size3 text-black text-semibold">Raja Ampat</p>
                 <p class="font-size3">indonesia</p>
@@ -166,7 +181,9 @@
         <div class="row acenter">
 
           <div class="xs-12 md-5 sm-5">
-            <div class="white01">
+            <div class="white01" data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <h3 class="font-display">Guides by Thousand Sunny</h3>
               <p class="font-line-heig">
                 Packed with tips and advice from our on-the-ground experts, our
@@ -177,7 +194,9 @@
             </div>
           </div>
 
-          <div class="xs-12 md-7 sm-7">
+          <div class="xs-12 md-7 sm-7" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
             <img src="./images/connection.png" alt="" />
           </div>
 
@@ -257,7 +276,7 @@
     </section>
 
     <!-- Sexta section (Blog) -->
-    <section class="sect-blog">
+    <section class="sect-blog" data-aos="fade-up" data-aos-offset="700">
       <div class="container">
         <div class="row acenter small-separate space-btw">
           <h3 class="font-display">Trending stories</h3>
@@ -419,4 +438,8 @@
   </body>
 
   <script src="dist/scripts.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>

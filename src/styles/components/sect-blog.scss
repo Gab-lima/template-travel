@@ -4,6 +4,7 @@
             color: $color-orange;
             font-weight: 600;
             transition: 0.3s;
+            float: right;
             &:hover{
                 border-bottom: 2px solid $color-orange;
             }
@@ -26,18 +27,21 @@
                 }
             }
             .desc-blog{
-                padding: 10px;
+                padding: 10px 30px 50px;
                 h5{
                     font-size: 17px;
-                    margin: 8px 0 30px 0;
-                    line-height: 30px;
+                    margin: 8px 0 20px 0;
+                    line-height: 25px;
+                    text-align: center;
                 }
                 p{
-                    line-height: 30px;
+                    line-height: 25px;
                     margin-bottom: 25px;
+                    text-align: center;
                 }
                 
             }
         }
     }
+
 }

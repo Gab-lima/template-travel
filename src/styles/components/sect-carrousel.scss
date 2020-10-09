@@ -6,20 +6,24 @@
         bottom: 0;
         right: 0;
         background-color: $color-lgray03;
-        padding: 20px 0 0 30px;
+        padding: 15px;
         border-radius: 16px 0 8px 0;
         
         .owl-prev{
+            &:focus{
+                outline: none;
+            }
             span{
                 font-size: 35px;
                 color: $color-black;
-                // border: 2px solid $color-black;
-                // border-radius: 50px;
                 padding: 0 15px;
                 
             } 
         }
         .owl-next{
+            &:focus{
+                outline: none;
+            }
             span{
                 font-size: 35px;
                 color: $color-black;
