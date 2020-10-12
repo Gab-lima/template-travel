@@ -1,0 +1,18 @@
+.align-actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    h3{
+        margin: 0;
+    }
+    a {
+        color: $color-orange;
+        font-weight: 600;
+
+  
+        &:hover {
+          border-bottom: 2px solid $color-orange;
+        }
+      }
+}

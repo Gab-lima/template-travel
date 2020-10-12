@@ -1,13 +1,6 @@
 .destinations {
   .container {
-    a {
-      color: $color-orange;
-      font-weight: 600;
-
-      &:hover {
-        border-bottom: 2px solid $color-orange;
-      }
-    }
+    
     .squad-img {
       position: relative;
       transition: 0.3s;
